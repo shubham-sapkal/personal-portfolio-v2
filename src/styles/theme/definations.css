@@ -1,0 +1,8 @@
+
+:root{
+    background: var(--background);
+}
+
+@theme {
+  --color-primary: var(--primary);
+}
