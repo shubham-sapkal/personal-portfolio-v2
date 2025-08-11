@@ -1,8 +1,23 @@
 
 :root{
-    background: var(--background);
+    background: var(--background); 
+  color: #000; 
+  height: 100%;
+  width: 100%;
 }
 
 @theme {
-  --color-primary: var(--primary);
+  --color-primary-txt: var(--primary-txt);
+  --color-btn-primary-bg: var(--btn-primary-bg);
+--color-btn-primary-txt: var(--btn-primary-txt);
+--color-bg-secondary: var(--bg-secondary);
+--color-secondary-txt: var(--secondary-txt);
+
+  /* Card  */
+  --color-card-bg: var(--card-bg);
+
+   /* Section Header  */
+    --color-section-header-txt: var(--section-header-txt);
+    --color-section-header-bg: var(--section-header-bg);
+
 }

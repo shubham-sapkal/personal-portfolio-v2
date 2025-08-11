@@ -1,24 +1,37 @@
 'use client'
 
-import { useTheme } from "next-themes";
+import { Header, MainBanner, AboutMe, Footer, Skills, Experience, Work, GetInTouch } from "@/sectionComponents";
+
 
 
 export default function Home() {
 
-  const { theme, setTheme } = useTheme()
-
   return (
-    <div>
-    <div className="bg-primary w-20 h-20 flex items-center justify-center">
-      Hello World
-    </div>
+    <div className="flex h-full flex-col w-full"> 
 
-    <div className="flex flex-col">
+        {/* Header  */}
+        <Header />
 
-      <button onClick={() => setTheme('light')}>Light Mode</button>
-      <button onClick={() => setTheme('dark')}>Dark Mode</button>
+        {/* Main Banner */}
+        <MainBanner />
 
-    </div>
+        {/* About Me  */}
+        <AboutMe />
+
+        {/* Skills  */}
+        <Skills />
+
+        {/* Experience  */}
+        <Experience />
+
+        {/* Work / Projects */}
+        <Work />
+
+        {/* Get In Touch */}
+        <GetInTouch />
+
+        {/* Footer  */}
+        <Footer />
 
     </div>
   )

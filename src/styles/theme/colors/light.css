@@ -1,4 +1,20 @@
 [data-theme='light'] {
     --background: #FFFFFF;
-  --primary: red;
+
+    --primary-txt: #111827;
+    --secondary-txt: #4B5563;
+
+    --bg-secondary: #F9FAFB;
+
+    /* Button */
+    --btn-primary-bg: #111827;
+    --btn-primary-txt: #F9FAFB;
+
+    /* Section Header  */
+    --section-header-txt: #4B5563;
+    --section-header-bg: #E5E7EB;
+
+    /* Card  */
+    --card-bg: #FFFFFF;
+
 }
